@@ -1,0 +1,1 @@
+PORTS/: Defines interfaces that abstract behaviours. These are contracts that define how services interact with the business logic.
