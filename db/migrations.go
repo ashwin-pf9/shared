@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ashwin-pf9/pipeline-shared/domain"
+	"shared/domain"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
