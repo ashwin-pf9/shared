@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"pipeline-shared/domain"
 
+	"github.com/ashwin-pf9/pipeline-shared/domain"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

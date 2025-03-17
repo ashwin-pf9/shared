@@ -4,8 +4,8 @@ package ports
 
 import (
 	"context"
-	"pipeline-shared/domain"
 
+	"github.com/ashwin-pf9/pipeline-shared/domain"
 	"github.com/google/uuid"
 )
 

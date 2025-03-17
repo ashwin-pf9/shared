@@ -1,4 +1,4 @@
-module pipeline-shared
+module github.com/ashwin-pf9/pipeline-shared
 
 go 1.23.6
 
