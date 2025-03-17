@@ -1,4 +1,4 @@
-module shared
+module pipeline-shared
 
 go 1.23.6
 
