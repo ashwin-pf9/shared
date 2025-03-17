@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"shared/domain"
+	"pipeline-shared/domain"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"

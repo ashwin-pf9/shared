@@ -4,7 +4,7 @@ package ports
 
 import (
 	"context"
-	"shared/domain"
+	"pipeline-shared/domain"
 
 	"github.com/google/uuid"
 )
