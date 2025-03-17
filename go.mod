@@ -1,4 +1,4 @@
-module shared
+module github.com/ashwin-pf9/shared
 
 go 1.23.6
 

@@ -5,8 +5,7 @@ package ports
 import (
 	"context"
 
-	"shared/domain"
-
+	"github.com/ashwin-pf9/shared/domain"
 	"github.com/google/uuid"
 )
 
