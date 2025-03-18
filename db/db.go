@@ -5,17 +5,17 @@ import (
 	"log"
 	"os"
 
-	"github.com/joho/godotenv"
+	// "github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
 // InitDatabase returns *gorm.DB without running migrations.
 func InitDatabase() *gorm.DB {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
-	}
+	// err := godotenv.Load()
+	// if err != nil {
+	// 	log.Fatalf("Error loading .env file: %v", err)
+	// }
 
 	user := os.Getenv("DB_USER")
 	database := os.Getenv("DB_DATABASE")
